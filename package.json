@@ -9,7 +9,7 @@
     "test": "npm run bootstrap && lerna run --stream test",
     "test:tsd": "lerna run test:tsd",
     "lint": "standardx 'packages/**/*.js'",
-    "bootstrap": "lerna bootstrap --hoist nyc --hoist ava --ignore-prepublish --no-ci",
+    "bootstrap": "lerna bootstrap --ignore-prepublish --no-ci",
     "changed": "lerna changed",
     "clean": "lerna clean",
     "graph": "lerna list --graph",
